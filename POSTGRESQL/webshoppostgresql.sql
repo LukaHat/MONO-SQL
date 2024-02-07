@@ -1,0 +1,1 @@
+SELECT "Product"."Price" FROM "Order" INNER JOIN "Product" ON "Order"."Id" = "Product"."Id";
